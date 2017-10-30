@@ -12,6 +12,8 @@
 		D57C931A1FA6C7E300D0B727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57C93181FA6C7E300D0B727 /* Main.storyboard */; };
 		D57C931C1FA6C7E300D0B727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57C931B1FA6C7E300D0B727 /* Assets.xcassets */; };
 		D57C931F1FA6C7E300D0B727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57C931D1FA6C7E300D0B727 /* LaunchScreen.storyboard */; };
+		D57C93271FA6C9B400D0B727 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C93261FA6C9B400D0B727 /* StreamReader.swift */; };
+		D57C93291FA7686100D0B727 /* StreamTestFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = D57C93281FA7686100D0B727 /* StreamTestFile.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D57C931B1FA6C7E300D0B727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D57C931E1FA6C7E300D0B727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D57C93201FA6C7E300D0B727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57C93261FA6C9B400D0B727 /* StreamReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
+		D57C93281FA7686100D0B727 /* StreamTestFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StreamTestFile.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		D57C93131FA6C7E300D0B727 /* TEST-StreamReader */ = {
 			isa = PBXGroup;
 			children = (
+				D57C93281FA7686100D0B727 /* StreamTestFile.txt */,
 				D57C93141FA6C7E300D0B727 /* AppDelegate.swift */,
 				D57C93161FA6C7E300D0B727 /* ViewController.swift */,
 				D57C93181FA6C7E300D0B727 /* Main.storyboard */,
 				D57C931B1FA6C7E300D0B727 /* Assets.xcassets */,
 				D57C931D1FA6C7E300D0B727 /* LaunchScreen.storyboard */,
 				D57C93201FA6C7E300D0B727 /* Info.plist */,
+				D57C93261FA6C9B400D0B727 /* StreamReader.swift */,
 			);
 			path = "TEST-StreamReader";
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57C93291FA7686100D0B727 /* StreamTestFile.txt in Resources */,
 				D57C931F1FA6C7E300D0B727 /* LaunchScreen.storyboard in Resources */,
 				D57C931C1FA6C7E300D0B727 /* Assets.xcassets in Resources */,
 				D57C931A1FA6C7E300D0B727 /* Main.storyboard in Resources */,
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57C93271FA6C9B400D0B727 /* StreamReader.swift in Sources */,
 				D57C93171FA6C7E300D0B727 /* ViewController.swift in Sources */,
 				D57C93151FA6C7E300D0B727 /* AppDelegate.swift in Sources */,
 			);
